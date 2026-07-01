@@ -25,13 +25,13 @@ repository               : "TaoYySC/taoyy.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Tao Yang"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "I am a student in the School of Bioinformatics, Tongji University."
+  location         : "ShangHai, China"
+  employer         : "Tongji University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "taoyysc@gmail.com" 
 
   # Academic websites
   academia         : # URL
