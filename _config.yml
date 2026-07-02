@@ -22,7 +22,7 @@ repository               : "TaoYySC/taoyysc.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "tao.jpg"
+  avatar           : "tao-avatar.jpg"
   name             : "Tao Yang"
   pronouns         : # example: "she/her"  
   bio              : "M.S. student in Bioinformatics at Tongji University (Zhang Lab). Co-supervised by Prof. Menghuan Zhang and Prof. Yong Zhang. Developer of PhosLoc-Transport."
