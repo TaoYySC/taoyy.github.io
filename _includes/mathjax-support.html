@@ -1,0 +1,28 @@
+{% comment %}
+  Load MathJax only when the current page may render math.
+  Set `mathjax: true` in front matter to force enable.
+{% endcomment %}
+{% assign needs_mathjax = false %}
+
+{% if page.mathjax == true %}
+  {% assign needs_mathjax = true %}
+{% else %}
+  {% capture page_text %}{{ page.content }}{{ page.excerpt }}{{ page.title }}{% endcapture %}
+  {% if page_text contains '$$' or page_text contains '\(' or page_text contains '\[' %}
+    {% assign needs_mathjax = true %}
+  {% endif %}
+{% endif %}
+
+{% if needs_mathjax == false and page.url contains '/publications' %}
+  {% for post in site.publications %}
+    {% capture post_text %}{{ post.content }}{{ post.excerpt }}{{ post.title }}{% endcapture %}
+    {% if post_text contains '$$' or post_text contains '\(' or post_text contains '\[' %}
+      {% assign needs_mathjax = true %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if needs_mathjax %}
+<script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.js"></script>
+{% endif %}
