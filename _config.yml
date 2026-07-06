@@ -28,7 +28,7 @@ author:
   bio              : "M.S. student in Bioinformatics at Tongji University."
   location         : "Shanghai, China"
   employer         : "Tongji University"
-  uri              : "https://taoyysc.cn"
+  uri              : # URL
   email            : "taoyysc@gmail.com" 
 
   # Academic websites
@@ -37,7 +37,7 @@ author:
   googlescholar    : # URL - Update with your Google Scholar profile when ready
   inspire-hep      : # URL
   impactstory      : # URL
-  # orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0007-7292-9264"
   semantic         : # URL
   ssrn             : # URL
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -220,16 +220,16 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: false
     permalink: /:collection/:path/
   portfolio:
     output: true
-    permalink: /:collection/:path/
+    permalink: /projects/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 

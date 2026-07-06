@@ -11,15 +11,13 @@ I am Tao Yang, a master's student in Bioinformatics at Tongji University, Shangh
 
 My research focuses on computational biology, with an emphasis on functional phosphorylation site prediction, protein localization, and transcription factor regulation. I am particularly interested in developing machine learning methods that integrate protein sequence, structural, and multi-omics information to study how post-translational modifications contribute to biological regulation.
 
-## Current Work
+## Research Summary
 
 I am currently developing **[PhosLoc Transport](https://github.com/TaoYySC/phosloc-transport)**, a computational framework for predicting phosphorylation sites associated with transcription factor nuclear-cytoplasmic localization regulation.
 
-The project focuses on two related questions. First, whether a transcription factor phosphosite is likely to be involved in localization regulation. Second, whether the site is more likely to be associated with nuclear accumulation or cytoplasmic redistribution. To address these questions, the framework combines protein language model representations, structure-derived features, and supervised learning models trained on literature-curated localization regulatory phosphosites.
+The project focuses on two related questions: whether a transcription factor phosphosite is likely to be involved in localization regulation, and whether the site is more likely to be associated with nuclear accumulation or cytoplasmic redistribution. The framework combines protein language model representations, structure-derived features, supervised learning, and cancer multi-omics analysis to connect phosphosite-level predictions with downstream regulatory effects.
 
-In addition to model development, I use cancer multi-omics data to examine whether predicted localization-associated phosphosites are linked to transcription factor target gene expression. This analysis helps connect phosphosite-level predictions with downstream regulatory effects in tumor samples.
-
-More details are available on the [Projects](/portfolio/) page and in the [GitHub repository](https://github.com/TaoYySC/phosloc-transport).
+More details are available on the [Projects](/projects/) page and in the [GitHub repository](https://github.com/TaoYySC/phosloc-transport).
 
 ## Background
 
